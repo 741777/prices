@@ -1,0 +1,5643 @@
+{
+  "_metadata": {
+    "description": "Global Taxi Tariff Database \u2014 OECD 38 + China & India",
+    "data_vintage": "Based on most recent official tariff schedules known through early 2025. Some rates may have been updated in 2025\u20132026. Verify against each country's transport authority for the absolute latest.",
+    "notes": [
+      "All fares in local currency as indicated by 'currency' field.",
+      "days: 1=Sunday, 2=Monday, 3=Tuesday, 4=Wednesday, 5=Thursday, 6=Friday, 7=Saturday.",
+      "minute_rate = charge per minute of waiting/slow traffic.",
+      "Where official per-minute rate unavailable, derived from hourly waiting charge.",
+      "Tariff schedules reflect the dominant regulated metered-taxi regime in each jurisdiction."
+    ],
+    "compiled": "2025"
+  },
+  "Australia": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.6,
+        "km_rate": 2.19,
+        "minute_rate": 0.94,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 3.6,
+        "km_rate": 2.63,
+        "minute_rate": 0.94,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "AUD"
+      }
+    },
+    "Sydney": {
+      "tariff1": {
+        "base_fare": 3.6,
+        "km_rate": 2.19,
+        "minute_rate": 0.94,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 3.6,
+        "km_rate": 2.63,
+        "minute_rate": 0.94,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "AUD"
+      },
+      "tariff3": {
+        "base_fare": 3.6,
+        "km_rate": 2.63,
+        "minute_rate": 0.94,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "AUD"
+      }
+    },
+    "Melbourne": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.87,
+        "minute_rate": 0.65,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 4.2,
+        "km_rate": 2.24,
+        "minute_rate": 0.65,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "AUD"
+      }
+    },
+    "Brisbane": {
+      "tariff1": {
+        "base_fare": 2.9,
+        "km_rate": 2.19,
+        "minute_rate": 0.9,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 2.9,
+        "km_rate": 2.63,
+        "minute_rate": 0.9,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "AUD"
+      }
+    },
+    "Perth": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.87,
+        "minute_rate": 0.62,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 6.1,
+        "km_rate": 2.05,
+        "minute_rate": 0.62,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "18:00-06:00",
+        "currency": "AUD"
+      }
+    },
+    "Adelaide": {
+      "tariff1": {
+        "base_fare": 3.7,
+        "km_rate": 1.87,
+        "minute_rate": 0.58,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "AUD"
+      },
+      "tariff2": {
+        "base_fare": 5.5,
+        "km_rate": 2.17,
+        "minute_rate": 0.58,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "19:00-06:00",
+        "currency": "AUD"
+      }
+    }
+  },
+  "Austria": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.8,
+        "km_rate": 1.42,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-23:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.8,
+        "km_rate": 1.6,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Vienna": {
+      "tariff1": {
+        "base_fare": 3.8,
+        "km_rate": 1.42,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-23:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.8,
+        "km_rate": 1.6,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      },
+      "tariff3": {
+        "base_fare": 3.8,
+        "km_rate": 1.6,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "23:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Graz": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.38,
+        "minute_rate": 0.4,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.5,
+        "km_rate": 1.55,
+        "minute_rate": 0.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Salzburg": {
+      "tariff1": {
+        "base_fare": 3.6,
+        "km_rate": 1.5,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.6,
+        "km_rate": 1.7,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Belgium": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.4,
+        "km_rate": 1.8,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.4,
+        "km_rate": 2.7,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Brussels": {
+      "tariff1": {
+        "base_fare": 2.4,
+        "km_rate": 1.8,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.4,
+        "km_rate": 2.7,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Antwerp": {
+      "tariff1": {
+        "base_fare": 2.4,
+        "km_rate": 1.8,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.4,
+        "km_rate": 2.7,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Ghent": {
+      "tariff1": {
+        "base_fare": 2.4,
+        "km_rate": 1.8,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.4,
+        "km_rate": 2.7,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Canada": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.75,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Toronto": {
+      "tariff1": {
+        "base_fare": 4.25,
+        "km_rate": 1.75,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Vancouver": {
+      "tariff1": {
+        "base_fare": 3.55,
+        "km_rate": 1.93,
+        "minute_rate": 0.56,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Montreal": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.75,
+        "minute_rate": 0.63,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Calgary": {
+      "tariff1": {
+        "base_fare": 3.8,
+        "km_rate": 1.62,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Ottawa": {
+      "tariff1": {
+        "base_fare": 3.65,
+        "km_rate": 1.81,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    },
+    "Edmonton": {
+      "tariff1": {
+        "base_fare": 3.6,
+        "km_rate": 1.62,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CAD"
+      }
+    }
+  },
+  "Chile": {
+    "General": {
+      "tariff1": {
+        "base_fare": 300,
+        "km_rate": 230,
+        "minute_rate": 40,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "07:00-21:00",
+        "currency": "CLP"
+      },
+      "tariff2": {
+        "base_fare": 300,
+        "km_rate": 300,
+        "minute_rate": 50,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-07:00",
+        "currency": "CLP"
+      }
+    },
+    "Santiago": {
+      "tariff1": {
+        "base_fare": 300,
+        "km_rate": 230,
+        "minute_rate": 40,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "07:00-21:00",
+        "currency": "CLP"
+      },
+      "tariff2": {
+        "base_fare": 300,
+        "km_rate": 300,
+        "minute_rate": 50,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-07:00",
+        "currency": "CLP"
+      }
+    },
+    "Valparaiso": {
+      "tariff1": {
+        "base_fare": 280,
+        "km_rate": 220,
+        "minute_rate": 38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "07:00-21:00",
+        "currency": "CLP"
+      },
+      "tariff2": {
+        "base_fare": 280,
+        "km_rate": 280,
+        "minute_rate": 48,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-07:00",
+        "currency": "CLP"
+      }
+    }
+  },
+  "China": {
+    "General": {
+      "tariff1": {
+        "base_fare": 10.0,
+        "km_rate": 2.3,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 11.0,
+        "km_rate": 2.76,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Shanghai": {
+      "tariff1": {
+        "base_fare": 14.0,
+        "km_rate": 2.5,
+        "minute_rate": 0.52,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 18.0,
+        "km_rate": 3.1,
+        "minute_rate": 0.52,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Beijing": {
+      "tariff1": {
+        "base_fare": 13.0,
+        "km_rate": 2.3,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 13.0,
+        "km_rate": 2.76,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Guangzhou": {
+      "tariff1": {
+        "base_fare": 12.0,
+        "km_rate": 2.6,
+        "minute_rate": 0.52,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 14.4,
+        "km_rate": 3.12,
+        "minute_rate": 0.52,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Shenzhen": {
+      "tariff1": {
+        "base_fare": 10.0,
+        "km_rate": 2.4,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 10.0,
+        "km_rate": 3.36,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Chengdu": {
+      "tariff1": {
+        "base_fare": 8.0,
+        "km_rate": 1.9,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 9.0,
+        "km_rate": 2.28,
+        "minute_rate": 0.54,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    },
+    "Hangzhou": {
+      "tariff1": {
+        "base_fare": 11.0,
+        "km_rate": 2.5,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-23:00",
+        "currency": "CNY"
+      },
+      "tariff2": {
+        "base_fare": 13.2,
+        "km_rate": 3.0,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-06:00",
+        "currency": "CNY"
+      }
+    }
+  },
+  "Colombia": {
+    "General": {
+      "tariff1": {
+        "base_fare": 4600,
+        "km_rate": 1200,
+        "minute_rate": 200,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "COP"
+      },
+      "tariff2": {
+        "base_fare": 4600,
+        "km_rate": 1440,
+        "minute_rate": 240,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "COP"
+      }
+    },
+    "Bogota": {
+      "tariff1": {
+        "base_fare": 4600,
+        "km_rate": 1200,
+        "minute_rate": 200,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "COP"
+      },
+      "tariff2": {
+        "base_fare": 4600,
+        "km_rate": 1440,
+        "minute_rate": 240,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "COP"
+      }
+    },
+    "Medellin": {
+      "tariff1": {
+        "base_fare": 4200,
+        "km_rate": 1100,
+        "minute_rate": 190,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "COP"
+      },
+      "tariff2": {
+        "base_fare": 4200,
+        "km_rate": 1320,
+        "minute_rate": 228,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "COP"
+      }
+    },
+    "Cali": {
+      "tariff1": {
+        "base_fare": 4100,
+        "km_rate": 1050,
+        "minute_rate": 180,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "COP"
+      },
+      "tariff2": {
+        "base_fare": 4100,
+        "km_rate": 1260,
+        "minute_rate": 216,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "COP"
+      }
+    }
+  },
+  "Costa Rica": {
+    "General": {
+      "tariff1": {
+        "base_fare": 670,
+        "km_rate": 660,
+        "minute_rate": 135,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CRC"
+      },
+      "tariff2": {
+        "base_fare": 670,
+        "km_rate": 792,
+        "minute_rate": 162,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CRC"
+      }
+    },
+    "San Jose": {
+      "tariff1": {
+        "base_fare": 670,
+        "km_rate": 660,
+        "minute_rate": 135,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CRC"
+      },
+      "tariff2": {
+        "base_fare": 670,
+        "km_rate": 792,
+        "minute_rate": 162,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CRC"
+      }
+    }
+  },
+  "Czech Republic": {
+    "General": {
+      "tariff1": {
+        "base_fare": 60,
+        "km_rate": 36,
+        "minute_rate": 7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CZK"
+      }
+    },
+    "Prague": {
+      "tariff1": {
+        "base_fare": 60,
+        "km_rate": 36,
+        "minute_rate": 7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CZK"
+      }
+    },
+    "Brno": {
+      "tariff1": {
+        "base_fare": 50,
+        "km_rate": 32,
+        "minute_rate": 6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "CZK"
+      }
+    }
+  },
+  "Denmark": {
+    "General": {
+      "tariff1": {
+        "base_fare": 39,
+        "km_rate": 8.25,
+        "minute_rate": 5.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "DKK"
+      },
+      "tariff2": {
+        "base_fare": 49,
+        "km_rate": 10.25,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "18:00-06:00",
+        "currency": "DKK"
+      },
+      "tariff3": {
+        "base_fare": 59,
+        "km_rate": 12.5,
+        "minute_rate": 7.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "DKK"
+      }
+    },
+    "Copenhagen": {
+      "tariff1": {
+        "base_fare": 39,
+        "km_rate": 8.25,
+        "minute_rate": 5.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "DKK"
+      },
+      "tariff2": {
+        "base_fare": 49,
+        "km_rate": 10.25,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "18:00-06:00",
+        "currency": "DKK"
+      },
+      "tariff3": {
+        "base_fare": 59,
+        "km_rate": 12.5,
+        "minute_rate": 7.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "DKK"
+      }
+    },
+    "Aarhus": {
+      "tariff1": {
+        "base_fare": 37,
+        "km_rate": 8.0,
+        "minute_rate": 5.3,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "DKK"
+      },
+      "tariff2": {
+        "base_fare": 47,
+        "km_rate": 10.0,
+        "minute_rate": 6.3,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "18:00-06:00",
+        "currency": "DKK"
+      },
+      "tariff3": {
+        "base_fare": 57,
+        "km_rate": 12.0,
+        "minute_rate": 7.2,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "DKK"
+      }
+    }
+  },
+  "Estonia": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 0.9,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Tallinn": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 0.9,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Tartu": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 0.8,
+        "minute_rate": 0.25,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Finland": {
+    "General": {
+      "tariff1": {
+        "base_fare": 5.9,
+        "km_rate": 1.6,
+        "minute_rate": 0.9,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 9.0,
+        "km_rate": 2.0,
+        "minute_rate": 1.1,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Helsinki": {
+      "tariff1": {
+        "base_fare": 5.9,
+        "km_rate": 1.6,
+        "minute_rate": 0.9,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 9.0,
+        "km_rate": 2.0,
+        "minute_rate": 1.1,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Tampere": {
+      "tariff1": {
+        "base_fare": 5.5,
+        "km_rate": 1.5,
+        "minute_rate": 0.85,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 8.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.05,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Turku": {
+      "tariff1": {
+        "base_fare": 5.5,
+        "km_rate": 1.48,
+        "minute_rate": 0.82,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 8.5,
+        "km_rate": 1.85,
+        "minute_rate": 1.0,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "France": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.14,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "10:00-17:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.6,
+        "km_rate": 1.47,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "17:00-10:00",
+        "currency": "EUR"
+      }
+    },
+    "Paris": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.14,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "10:00-17:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.6,
+        "km_rate": 1.47,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "17:00-10:00",
+        "currency": "EUR"
+      },
+      "tariff3": {
+        "base_fare": 2.6,
+        "km_rate": 1.63,
+        "minute_rate": 0.38,
+        "days": [
+          1
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Lyon": {
+      "tariff1": {
+        "base_fare": 2.3,
+        "km_rate": 1.09,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "07:00-19:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.3,
+        "km_rate": 1.41,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "19:00-07:00",
+        "currency": "EUR"
+      }
+    },
+    "Marseille": {
+      "tariff1": {
+        "base_fare": 2.2,
+        "km_rate": 1.05,
+        "minute_rate": 0.35,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "07:00-19:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.2,
+        "km_rate": 1.35,
+        "minute_rate": 0.35,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "19:00-07:00",
+        "currency": "EUR"
+      }
+    },
+    "Nice": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.08,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "07:00-19:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.6,
+        "km_rate": 1.4,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "19:00-07:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Germany": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.9,
+        "km_rate": 2.0,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Berlin": {
+      "tariff1": {
+        "base_fare": 3.9,
+        "km_rate": 2.0,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Munich": {
+      "tariff1": {
+        "base_fare": 4.7,
+        "km_rate": 2.0,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Frankfurt": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 2.0,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Hamburg": {
+      "tariff1": {
+        "base_fare": 3.9,
+        "km_rate": 2.45,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Cologne": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.8,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.5,
+        "km_rate": 2.0,
+        "minute_rate": 0.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Stuttgart": {
+      "tariff1": {
+        "base_fare": 3.7,
+        "km_rate": 2.2,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Greece": {
+    "General": {
+      "tariff1": {
+        "base_fare": 1.29,
+        "km_rate": 0.74,
+        "minute_rate": 0.19,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "05:00-24:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.29,
+        "km_rate": 1.29,
+        "minute_rate": 0.19,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-05:00",
+        "currency": "EUR"
+      }
+    },
+    "Athens": {
+      "tariff1": {
+        "base_fare": 1.29,
+        "km_rate": 0.74,
+        "minute_rate": 0.19,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "05:00-24:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.29,
+        "km_rate": 1.29,
+        "minute_rate": 0.19,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-05:00",
+        "currency": "EUR"
+      }
+    },
+    "Thessaloniki": {
+      "tariff1": {
+        "base_fare": 1.19,
+        "km_rate": 0.68,
+        "minute_rate": 0.18,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "05:00-24:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.19,
+        "km_rate": 1.19,
+        "minute_rate": 0.18,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-05:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Hungary": {
+    "General": {
+      "tariff1": {
+        "base_fare": 1100,
+        "km_rate": 440,
+        "minute_rate": 110,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "HUF"
+      },
+      "tariff2": {
+        "base_fare": 1100,
+        "km_rate": 528,
+        "minute_rate": 132,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "HUF"
+      }
+    },
+    "Budapest": {
+      "tariff1": {
+        "base_fare": 1100,
+        "km_rate": 440,
+        "minute_rate": 110,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "HUF"
+      },
+      "tariff2": {
+        "base_fare": 1100,
+        "km_rate": 528,
+        "minute_rate": 132,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "HUF"
+      }
+    },
+    "Debrecen": {
+      "tariff1": {
+        "base_fare": 900,
+        "km_rate": 390,
+        "minute_rate": 95,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "HUF"
+      },
+      "tariff2": {
+        "base_fare": 900,
+        "km_rate": 468,
+        "minute_rate": 114,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "HUF"
+      }
+    }
+  },
+  "Iceland": {
+    "General": {
+      "tariff1": {
+        "base_fare": 750,
+        "km_rate": 330,
+        "minute_rate": 90,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "ISK"
+      },
+      "tariff2": {
+        "base_fare": 750,
+        "km_rate": 396,
+        "minute_rate": 108,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "18:00-06:00",
+        "currency": "ISK"
+      }
+    },
+    "Reykjavik": {
+      "tariff1": {
+        "base_fare": 750,
+        "km_rate": 330,
+        "minute_rate": 90,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "ISK"
+      },
+      "tariff2": {
+        "base_fare": 750,
+        "km_rate": 396,
+        "minute_rate": 108,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "18:00-06:00",
+        "currency": "ISK"
+      }
+    },
+    "Akureyri": {
+      "tariff1": {
+        "base_fare": 700,
+        "km_rate": 310,
+        "minute_rate": 85,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-18:00",
+        "currency": "ISK"
+      },
+      "tariff2": {
+        "base_fare": 700,
+        "km_rate": 372,
+        "minute_rate": 102,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "18:00-06:00",
+        "currency": "ISK"
+      }
+    }
+  },
+  "India": {
+    "General": {
+      "tariff1": {
+        "base_fare": 25,
+        "km_rate": 14,
+        "minute_rate": 2.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 25,
+        "km_rate": 21,
+        "minute_rate": 3.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Mumbai": {
+      "tariff1": {
+        "base_fare": 28,
+        "km_rate": 17,
+        "minute_rate": 2.8,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-24:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 33.6,
+        "km_rate": 20.4,
+        "minute_rate": 3.36,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Delhi": {
+      "tariff1": {
+        "base_fare": 25,
+        "km_rate": 14,
+        "minute_rate": 2.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 37.5,
+        "km_rate": 21,
+        "minute_rate": 3.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Bangalore": {
+      "tariff1": {
+        "base_fare": 30,
+        "km_rate": 15,
+        "minute_rate": 2.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-22:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 30,
+        "km_rate": 22.5,
+        "minute_rate": 3.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Chennai": {
+      "tariff1": {
+        "base_fare": 25,
+        "km_rate": 15,
+        "minute_rate": 2.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-22:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 25,
+        "km_rate": 22.5,
+        "minute_rate": 3.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Kolkata": {
+      "tariff1": {
+        "base_fare": 30,
+        "km_rate": 14,
+        "minute_rate": 2.0,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 30,
+        "km_rate": 21,
+        "minute_rate": 3.0,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "INR"
+      }
+    },
+    "Hyderabad": {
+      "tariff1": {
+        "base_fare": 25,
+        "km_rate": 16,
+        "minute_rate": 2.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "INR"
+      },
+      "tariff2": {
+        "base_fare": 25,
+        "km_rate": 24,
+        "minute_rate": 3.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "INR"
+      }
+    }
+  },
+  "Ireland": {
+    "General": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.14,
+        "minute_rate": 0.37,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "08:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "20:00-08:00",
+        "currency": "EUR"
+      },
+      "tariff3": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Dublin": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.14,
+        "minute_rate": 0.37,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "08:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "20:00-08:00",
+        "currency": "EUR"
+      },
+      "tariff3": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Cork": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.14,
+        "minute_rate": 0.37,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "08:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-08:00",
+        "currency": "EUR"
+      }
+    },
+    "Galway": {
+      "tariff1": {
+        "base_fare": 4.2,
+        "km_rate": 1.14,
+        "minute_rate": 0.37,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "08:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 4.8,
+        "km_rate": 1.52,
+        "minute_rate": 0.44,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-08:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Israel": {
+    "General": {
+      "tariff1": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hours": "06:00-21:00",
+        "currency": "ILS"
+      },
+      "tariff2": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "21:00-06:00",
+        "currency": "ILS"
+      },
+      "tariff3": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "ILS"
+      }
+    },
+    "Tel Aviv": {
+      "tariff1": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hours": "06:00-21:00",
+        "currency": "ILS"
+      },
+      "tariff2": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "21:00-06:00",
+        "currency": "ILS"
+      },
+      "tariff3": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "ILS"
+      }
+    },
+    "Jerusalem": {
+      "tariff1": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hours": "06:00-21:00",
+        "currency": "ILS"
+      },
+      "tariff2": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "21:00-06:00",
+        "currency": "ILS"
+      },
+      "tariff3": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "ILS"
+      }
+    },
+    "Haifa": {
+      "tariff1": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hours": "06:00-21:00",
+        "currency": "ILS"
+      },
+      "tariff2": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "21:00-06:00",
+        "currency": "ILS"
+      },
+      "tariff3": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "ILS"
+      }
+    },
+    "Beer Sheva": {
+      "tariff1": {
+        "base_fare": 11.5,
+        "km_rate": 1.9,
+        "minute_rate": 1.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "hours": "06:00-21:00",
+        "currency": "ILS"
+      },
+      "tariff2": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "21:00-06:00",
+        "currency": "ILS"
+      },
+      "tariff3": {
+        "base_fare": 13.8,
+        "km_rate": 2.28,
+        "minute_rate": 2.04,
+        "days": [
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "ILS"
+      }
+    }
+  },
+  "Italy": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.1,
+        "minute_rate": 0.3,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 6.5,
+        "km_rate": 1.3,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Rome": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.1,
+        "minute_rate": 0.3,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 6.5,
+        "km_rate": 1.3,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      },
+      "tariff3": {
+        "base_fare": 7.0,
+        "km_rate": 1.3,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Milan": {
+      "tariff1": {
+        "base_fare": 3.3,
+        "km_rate": 1.09,
+        "minute_rate": 0.29,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 5.4,
+        "km_rate": 1.29,
+        "minute_rate": 0.29,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Naples": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.1,
+        "minute_rate": 0.28,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 6.0,
+        "km_rate": 1.3,
+        "minute_rate": 0.28,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Florence": {
+      "tariff1": {
+        "base_fare": 3.3,
+        "km_rate": 0.97,
+        "minute_rate": 0.27,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 5.3,
+        "km_rate": 1.21,
+        "minute_rate": 0.27,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Turin": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.12,
+        "minute_rate": 0.28,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 5.5,
+        "km_rate": 1.34,
+        "minute_rate": 0.28,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Japan": {
+    "General": {
+      "tariff1": {
+        "base_fare": 500,
+        "km_rate": 310,
+        "minute_rate": 80,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 500,
+        "km_rate": 372,
+        "minute_rate": 96,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "JPY"
+      }
+    },
+    "Tokyo": {
+      "tariff1": {
+        "base_fare": 500,
+        "km_rate": 310,
+        "minute_rate": 80,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 500,
+        "km_rate": 372,
+        "minute_rate": 96,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-05:00",
+        "currency": "JPY"
+      }
+    },
+    "Osaka": {
+      "tariff1": {
+        "base_fare": 680,
+        "km_rate": 296,
+        "minute_rate": 75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 680,
+        "km_rate": 355,
+        "minute_rate": 90,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "JPY"
+      }
+    },
+    "Kyoto": {
+      "tariff1": {
+        "base_fare": 470,
+        "km_rate": 290,
+        "minute_rate": 75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 470,
+        "km_rate": 348,
+        "minute_rate": 90,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "JPY"
+      }
+    },
+    "Nagoya": {
+      "tariff1": {
+        "base_fare": 500,
+        "km_rate": 280,
+        "minute_rate": 73,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 500,
+        "km_rate": 336,
+        "minute_rate": 88,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "JPY"
+      }
+    },
+    "Fukuoka": {
+      "tariff1": {
+        "base_fare": 600,
+        "km_rate": 270,
+        "minute_rate": 70,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "JPY"
+      },
+      "tariff2": {
+        "base_fare": 600,
+        "km_rate": 324,
+        "minute_rate": 84,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "JPY"
+      }
+    }
+  },
+  "Korea": {
+    "General": {
+      "tariff1": {
+        "base_fare": 4800,
+        "km_rate": 1000,
+        "minute_rate": 200,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "04:00-24:00",
+        "currency": "KRW"
+      },
+      "tariff2": {
+        "base_fare": 4800,
+        "km_rate": 1200,
+        "minute_rate": 240,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-04:00",
+        "currency": "KRW"
+      }
+    },
+    "Seoul": {
+      "tariff1": {
+        "base_fare": 4800,
+        "km_rate": 1000,
+        "minute_rate": 200,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "04:00-24:00",
+        "currency": "KRW"
+      },
+      "tariff2": {
+        "base_fare": 5760,
+        "km_rate": 1200,
+        "minute_rate": 240,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-04:00",
+        "currency": "KRW"
+      }
+    },
+    "Busan": {
+      "tariff1": {
+        "base_fare": 3800,
+        "km_rate": 850,
+        "minute_rate": 170,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "04:00-24:00",
+        "currency": "KRW"
+      },
+      "tariff2": {
+        "base_fare": 4560,
+        "km_rate": 1020,
+        "minute_rate": 204,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-04:00",
+        "currency": "KRW"
+      }
+    },
+    "Incheon": {
+      "tariff1": {
+        "base_fare": 3800,
+        "km_rate": 900,
+        "minute_rate": 180,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "04:00-24:00",
+        "currency": "KRW"
+      },
+      "tariff2": {
+        "base_fare": 4560,
+        "km_rate": 1080,
+        "minute_rate": 216,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-04:00",
+        "currency": "KRW"
+      }
+    }
+  },
+  "Latvia": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 0.85,
+        "minute_rate": 0.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Riga": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 0.85,
+        "minute_rate": 0.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Daugavpils": {
+      "tariff1": {
+        "base_fare": 2.0,
+        "km_rate": 0.75,
+        "minute_rate": 0.18,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Lithuania": {
+    "General": {
+      "tariff1": {
+        "base_fare": 1.5,
+        "km_rate": 0.9,
+        "minute_rate": 0.25,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.0,
+        "km_rate": 1.1,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Vilnius": {
+      "tariff1": {
+        "base_fare": 1.5,
+        "km_rate": 0.9,
+        "minute_rate": 0.25,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.0,
+        "km_rate": 1.1,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Kaunas": {
+      "tariff1": {
+        "base_fare": 1.4,
+        "km_rate": 0.85,
+        "minute_rate": 0.23,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.8,
+        "km_rate": 1.05,
+        "minute_rate": 0.28,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Luxembourg": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 2.07,
+        "minute_rate": 0.6,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.5,
+        "km_rate": 3.11,
+        "minute_rate": 0.9,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Luxembourg City": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 2.07,
+        "minute_rate": 0.6,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.5,
+        "km_rate": 3.11,
+        "minute_rate": 0.9,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Mexico": {
+    "General": {
+      "tariff1": {
+        "base_fare": 8.74,
+        "km_rate": 4.3,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "MXN"
+      },
+      "tariff2": {
+        "base_fare": 8.74,
+        "km_rate": 5.16,
+        "minute_rate": 1.44,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "MXN"
+      }
+    },
+    "Mexico City": {
+      "tariff1": {
+        "base_fare": 8.74,
+        "km_rate": 4.3,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "MXN"
+      },
+      "tariff2": {
+        "base_fare": 8.74,
+        "km_rate": 5.16,
+        "minute_rate": 1.44,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "MXN"
+      }
+    },
+    "Guadalajara": {
+      "tariff1": {
+        "base_fare": 10.1,
+        "km_rate": 4.7,
+        "minute_rate": 1.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "MXN"
+      },
+      "tariff2": {
+        "base_fare": 10.1,
+        "km_rate": 5.64,
+        "minute_rate": 1.56,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "MXN"
+      }
+    },
+    "Cancun": {
+      "tariff1": {
+        "base_fare": 15.0,
+        "km_rate": 8.5,
+        "minute_rate": 2.0,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "MXN"
+      }
+    },
+    "Monterrey": {
+      "tariff1": {
+        "base_fare": 9.5,
+        "km_rate": 5.2,
+        "minute_rate": 1.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "05:00-23:00",
+        "currency": "MXN"
+      },
+      "tariff2": {
+        "base_fare": 9.5,
+        "km_rate": 6.24,
+        "minute_rate": 1.68,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "23:00-05:00",
+        "currency": "MXN"
+      }
+    }
+  },
+  "Netherlands": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.19,
+        "km_rate": 2.35,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.19,
+        "km_rate": 2.84,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Amsterdam": {
+      "tariff1": {
+        "base_fare": 3.19,
+        "km_rate": 2.35,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.19,
+        "km_rate": 2.84,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Rotterdam": {
+      "tariff1": {
+        "base_fare": 3.19,
+        "km_rate": 2.35,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.19,
+        "km_rate": 2.84,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "The Hague": {
+      "tariff1": {
+        "base_fare": 3.19,
+        "km_rate": 2.35,
+        "minute_rate": 0.42,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.19,
+        "km_rate": 2.84,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "New Zealand": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 3.3,
+        "minute_rate": 0.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NZD"
+      }
+    },
+    "Auckland": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 3.3,
+        "minute_rate": 0.75,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NZD"
+      }
+    },
+    "Wellington": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 3.2,
+        "minute_rate": 0.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NZD"
+      }
+    },
+    "Christchurch": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 3.1,
+        "minute_rate": 0.7,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NZD"
+      }
+    }
+  },
+  "Norway": {
+    "General": {
+      "tariff1": {
+        "base_fare": 55,
+        "km_rate": 12.7,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-17:00",
+        "currency": "NOK"
+      },
+      "tariff2": {
+        "base_fare": 65,
+        "km_rate": 15.5,
+        "minute_rate": 7.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "17:00-06:00",
+        "currency": "NOK"
+      },
+      "tariff3": {
+        "base_fare": 75,
+        "km_rate": 17.0,
+        "minute_rate": 8.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NOK"
+      }
+    },
+    "Oslo": {
+      "tariff1": {
+        "base_fare": 55,
+        "km_rate": 12.7,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-17:00",
+        "currency": "NOK"
+      },
+      "tariff2": {
+        "base_fare": 65,
+        "km_rate": 15.5,
+        "minute_rate": 7.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "17:00-06:00",
+        "currency": "NOK"
+      },
+      "tariff3": {
+        "base_fare": 75,
+        "km_rate": 17.0,
+        "minute_rate": 8.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NOK"
+      }
+    },
+    "Bergen": {
+      "tariff1": {
+        "base_fare": 52,
+        "km_rate": 12.0,
+        "minute_rate": 6.2,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-17:00",
+        "currency": "NOK"
+      },
+      "tariff2": {
+        "base_fare": 62,
+        "km_rate": 14.8,
+        "minute_rate": 7.2,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "17:00-06:00",
+        "currency": "NOK"
+      },
+      "tariff3": {
+        "base_fare": 72,
+        "km_rate": 16.0,
+        "minute_rate": 8.0,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NOK"
+      }
+    },
+    "Trondheim": {
+      "tariff1": {
+        "base_fare": 50,
+        "km_rate": 11.5,
+        "minute_rate": 6.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-17:00",
+        "currency": "NOK"
+      },
+      "tariff2": {
+        "base_fare": 60,
+        "km_rate": 14.0,
+        "minute_rate": 7.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "17:00-06:00",
+        "currency": "NOK"
+      },
+      "tariff3": {
+        "base_fare": 70,
+        "km_rate": 16.0,
+        "minute_rate": 8.0,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "NOK"
+      }
+    }
+  },
+  "Poland": {
+    "General": {
+      "tariff1": {
+        "base_fare": 8.0,
+        "km_rate": 3.0,
+        "minute_rate": 0.8,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "PLN"
+      },
+      "tariff2": {
+        "base_fare": 8.0,
+        "km_rate": 4.5,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "PLN"
+      }
+    },
+    "Warsaw": {
+      "tariff1": {
+        "base_fare": 8.0,
+        "km_rate": 3.0,
+        "minute_rate": 0.8,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "PLN"
+      },
+      "tariff2": {
+        "base_fare": 8.0,
+        "km_rate": 4.5,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "PLN"
+      }
+    },
+    "Krakow": {
+      "tariff1": {
+        "base_fare": 7.0,
+        "km_rate": 2.8,
+        "minute_rate": 0.75,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "PLN"
+      },
+      "tariff2": {
+        "base_fare": 7.0,
+        "km_rate": 4.2,
+        "minute_rate": 1.13,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "PLN"
+      }
+    },
+    "Gdansk": {
+      "tariff1": {
+        "base_fare": 6.0,
+        "km_rate": 3.2,
+        "minute_rate": 0.8,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "PLN"
+      },
+      "tariff2": {
+        "base_fare": 6.0,
+        "km_rate": 4.8,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "PLN"
+      }
+    },
+    "Wroclaw": {
+      "tariff1": {
+        "base_fare": 7.0,
+        "km_rate": 3.0,
+        "minute_rate": 0.8,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "PLN"
+      },
+      "tariff2": {
+        "base_fare": 7.0,
+        "km_rate": 4.5,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "PLN"
+      }
+    }
+  },
+  "Portugal": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.25,
+        "km_rate": 0.47,
+        "minute_rate": 0.25,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.9,
+        "km_rate": 0.56,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Lisbon": {
+      "tariff1": {
+        "base_fare": 3.25,
+        "km_rate": 0.47,
+        "minute_rate": 0.25,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.9,
+        "km_rate": 0.56,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Porto": {
+      "tariff1": {
+        "base_fare": 3.25,
+        "km_rate": 0.47,
+        "minute_rate": 0.25,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.9,
+        "km_rate": 0.56,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Slovak Republic": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 1.2,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "EUR"
+      }
+    },
+    "Bratislava": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 1.2,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.5,
+        "km_rate": 1.5,
+        "minute_rate": 0.36,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Kosice": {
+      "tariff1": {
+        "base_fare": 2.0,
+        "km_rate": 1.0,
+        "minute_rate": 0.25,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.0,
+        "km_rate": 1.25,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Slovenia": {
+    "General": {
+      "tariff1": {
+        "base_fare": 1.5,
+        "km_rate": 1.06,
+        "minute_rate": 0.25,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.5,
+        "km_rate": 1.27,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Ljubljana": {
+      "tariff1": {
+        "base_fare": 1.5,
+        "km_rate": 1.06,
+        "minute_rate": 0.25,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.5,
+        "km_rate": 1.27,
+        "minute_rate": 0.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Maribor": {
+      "tariff1": {
+        "base_fare": 1.4,
+        "km_rate": 1.0,
+        "minute_rate": 0.23,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 1.4,
+        "km_rate": 1.2,
+        "minute_rate": 0.28,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Spain": {
+    "General": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 1.05,
+        "minute_rate": 0.35,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.15,
+        "km_rate": 1.2,
+        "minute_rate": 0.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Madrid": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 1.05,
+        "minute_rate": 0.35,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.15,
+        "km_rate": 1.2,
+        "minute_rate": 0.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Barcelona": {
+      "tariff1": {
+        "base_fare": 2.2,
+        "km_rate": 1.17,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.2,
+        "km_rate": 1.37,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Seville": {
+      "tariff1": {
+        "base_fare": 1.5,
+        "km_rate": 0.95,
+        "minute_rate": 0.32,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-21:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.1,
+        "km_rate": 1.14,
+        "minute_rate": 0.38,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "21:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Valencia": {
+      "tariff1": {
+        "base_fare": 2.3,
+        "km_rate": 0.98,
+        "minute_rate": 0.33,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 3.1,
+        "km_rate": 1.25,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    },
+    "Malaga": {
+      "tariff1": {
+        "base_fare": 1.6,
+        "km_rate": 0.88,
+        "minute_rate": 0.3,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "EUR"
+      },
+      "tariff2": {
+        "base_fare": 2.2,
+        "km_rate": 1.1,
+        "minute_rate": 0.37,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "EUR"
+      }
+    }
+  },
+  "Sweden": {
+    "General": {
+      "tariff1": {
+        "base_fare": 45,
+        "km_rate": 12.5,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "SEK"
+      },
+      "tariff2": {
+        "base_fare": 55,
+        "km_rate": 14.0,
+        "minute_rate": 7.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "19:00-06:00",
+        "currency": "SEK"
+      },
+      "tariff3": {
+        "base_fare": 60,
+        "km_rate": 15.5,
+        "minute_rate": 8.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "SEK"
+      }
+    },
+    "Stockholm": {
+      "tariff1": {
+        "base_fare": 45,
+        "km_rate": 12.5,
+        "minute_rate": 6.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "SEK"
+      },
+      "tariff2": {
+        "base_fare": 55,
+        "km_rate": 14.0,
+        "minute_rate": 7.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "19:00-06:00",
+        "currency": "SEK"
+      },
+      "tariff3": {
+        "base_fare": 60,
+        "km_rate": 15.5,
+        "minute_rate": 8.5,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "SEK"
+      }
+    },
+    "Gothenburg": {
+      "tariff1": {
+        "base_fare": 42,
+        "km_rate": 12.0,
+        "minute_rate": 6.2,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "SEK"
+      },
+      "tariff2": {
+        "base_fare": 52,
+        "km_rate": 13.5,
+        "minute_rate": 7.2,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "19:00-06:00",
+        "currency": "SEK"
+      },
+      "tariff3": {
+        "base_fare": 57,
+        "km_rate": 15.0,
+        "minute_rate": 8.0,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "SEK"
+      }
+    },
+    "Malmo": {
+      "tariff1": {
+        "base_fare": 40,
+        "km_rate": 11.5,
+        "minute_rate": 6.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "SEK"
+      },
+      "tariff2": {
+        "base_fare": 50,
+        "km_rate": 13.0,
+        "minute_rate": 7.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "19:00-06:00",
+        "currency": "SEK"
+      },
+      "tariff3": {
+        "base_fare": 55,
+        "km_rate": 14.5,
+        "minute_rate": 7.8,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "SEK"
+      }
+    }
+  },
+  "Switzerland": {
+    "General": {
+      "tariff1": {
+        "base_fare": 6.0,
+        "km_rate": 3.8,
+        "minute_rate": 1.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CHF"
+      },
+      "tariff2": {
+        "base_fare": 6.0,
+        "km_rate": 4.6,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CHF"
+      }
+    },
+    "Zurich": {
+      "tariff1": {
+        "base_fare": 6.0,
+        "km_rate": 3.8,
+        "minute_rate": 1.0,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CHF"
+      },
+      "tariff2": {
+        "base_fare": 6.0,
+        "km_rate": 4.6,
+        "minute_rate": 1.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CHF"
+      }
+    },
+    "Geneva": {
+      "tariff1": {
+        "base_fare": 6.3,
+        "km_rate": 3.5,
+        "minute_rate": 0.95,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-19:00",
+        "currency": "CHF"
+      },
+      "tariff2": {
+        "base_fare": 6.3,
+        "km_rate": 4.3,
+        "minute_rate": 1.15,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "19:00-06:00",
+        "currency": "CHF"
+      }
+    },
+    "Basel": {
+      "tariff1": {
+        "base_fare": 5.0,
+        "km_rate": 3.6,
+        "minute_rate": 0.95,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CHF"
+      },
+      "tariff2": {
+        "base_fare": 5.0,
+        "km_rate": 4.3,
+        "minute_rate": 1.15,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CHF"
+      }
+    },
+    "Bern": {
+      "tariff1": {
+        "base_fare": 6.5,
+        "km_rate": 3.7,
+        "minute_rate": 0.98,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "CHF"
+      },
+      "tariff2": {
+        "base_fare": 6.5,
+        "km_rate": 4.5,
+        "minute_rate": 1.18,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "CHF"
+      }
+    }
+  },
+  "Turkey": {
+    "General": {
+      "tariff1": {
+        "base_fare": 35.0,
+        "km_rate": 18.5,
+        "minute_rate": 4.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-24:00",
+        "currency": "TRY"
+      },
+      "tariff2": {
+        "base_fare": 42.0,
+        "km_rate": 22.2,
+        "minute_rate": 5.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-06:00",
+        "currency": "TRY"
+      }
+    },
+    "Istanbul": {
+      "tariff1": {
+        "base_fare": 35.0,
+        "km_rate": 18.5,
+        "minute_rate": 4.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-24:00",
+        "currency": "TRY"
+      },
+      "tariff2": {
+        "base_fare": 42.0,
+        "km_rate": 22.2,
+        "minute_rate": 5.4,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-06:00",
+        "currency": "TRY"
+      }
+    },
+    "Ankara": {
+      "tariff1": {
+        "base_fare": 25.0,
+        "km_rate": 14.0,
+        "minute_rate": 3.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-24:00",
+        "currency": "TRY"
+      },
+      "tariff2": {
+        "base_fare": 30.0,
+        "km_rate": 16.8,
+        "minute_rate": 4.2,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-06:00",
+        "currency": "TRY"
+      }
+    },
+    "Izmir": {
+      "tariff1": {
+        "base_fare": 25.0,
+        "km_rate": 13.5,
+        "minute_rate": 3.3,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-24:00",
+        "currency": "TRY"
+      },
+      "tariff2": {
+        "base_fare": 30.0,
+        "km_rate": 16.2,
+        "minute_rate": 3.96,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-06:00",
+        "currency": "TRY"
+      }
+    },
+    "Antalya": {
+      "tariff1": {
+        "base_fare": 22.0,
+        "km_rate": 12.5,
+        "minute_rate": 3.0,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "06:00-24:00",
+        "currency": "TRY"
+      },
+      "tariff2": {
+        "base_fare": 26.4,
+        "km_rate": 15.0,
+        "minute_rate": 3.6,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-06:00",
+        "currency": "TRY"
+      }
+    }
+  },
+  "United Kingdom": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.6,
+        "minute_rate": 0.4,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 3.0,
+        "km_rate": 1.9,
+        "minute_rate": 0.48,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "GBP"
+      }
+    },
+    "London": {
+      "tariff1": {
+        "base_fare": 3.8,
+        "km_rate": 1.88,
+        "minute_rate": 0.47,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-20:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 3.8,
+        "km_rate": 2.26,
+        "minute_rate": 0.57,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "20:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff3": {
+        "base_fare": 3.8,
+        "km_rate": 2.64,
+        "minute_rate": 0.66,
+        "days": [
+          1,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "GBP"
+      }
+    },
+    "Manchester": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.5,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 2.6,
+        "km_rate": 1.8,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "GBP"
+      }
+    },
+    "Birmingham": {
+      "tariff1": {
+        "base_fare": 2.4,
+        "km_rate": 1.44,
+        "minute_rate": 0.36,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 2.4,
+        "km_rate": 1.73,
+        "minute_rate": 0.43,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "GBP"
+      }
+    },
+    "Edinburgh": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.56,
+        "minute_rate": 0.39,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 3.5,
+        "km_rate": 1.87,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "GBP"
+      }
+    },
+    "Glasgow": {
+      "tariff1": {
+        "base_fare": 2.8,
+        "km_rate": 1.5,
+        "minute_rate": 0.38,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-22:00",
+        "currency": "GBP"
+      },
+      "tariff2": {
+        "base_fare": 3.4,
+        "km_rate": 1.8,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "22:00-06:00",
+        "currency": "GBP"
+      }
+    }
+  },
+  "United States": {
+    "General": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.56,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "New York": {
+      "tariff1": {
+        "base_fare": 3.0,
+        "km_rate": 1.56,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "06:00-16:00",
+        "currency": "USD"
+      },
+      "tariff2": {
+        "base_fare": 3.5,
+        "km_rate": 1.56,
+        "minute_rate": 0.5,
+        "days": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "hours": "16:00-20:00",
+        "currency": "USD"
+      },
+      "tariff3": {
+        "base_fare": 3.5,
+        "km_rate": 1.56,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "20:00-06:00",
+        "currency": "USD"
+      }
+    },
+    "Chicago": {
+      "tariff1": {
+        "base_fare": 3.25,
+        "km_rate": 1.4,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Los Angeles": {
+      "tariff1": {
+        "base_fare": 2.85,
+        "km_rate": 1.71,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "San Francisco": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.71,
+        "minute_rate": 0.55,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Miami": {
+      "tariff1": {
+        "base_fare": 2.95,
+        "km_rate": 1.55,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Washington DC": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.59,
+        "minute_rate": 0.42,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Houston": {
+      "tariff1": {
+        "base_fare": 2.8,
+        "km_rate": 1.4,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Boston": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.74,
+        "minute_rate": 0.47,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Seattle": {
+      "tariff1": {
+        "base_fare": 2.6,
+        "km_rate": 1.71,
+        "minute_rate": 0.5,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Dallas": {
+      "tariff1": {
+        "base_fare": 2.5,
+        "km_rate": 1.43,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Denver": {
+      "tariff1": {
+        "base_fare": 3.5,
+        "km_rate": 1.49,
+        "minute_rate": 0.46,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    },
+    "Philadelphia": {
+      "tariff1": {
+        "base_fare": 2.7,
+        "km_rate": 1.49,
+        "minute_rate": 0.45,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "hours": "00:00-23:59",
+        "currency": "USD"
+      }
+    }
+  }
+}
